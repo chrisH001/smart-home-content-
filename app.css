@@ -77,24 +77,35 @@ transition-duration: 0.3s;
     background-color:#2C2E3A;
     color: white;
     font-size: xx-large;
+    justify-content:end;
   }
 
-  .content-cards2, .content-cards3, .content-cards4 {
-    
+  .flex-container > section.content-cards {
     width: calc(96%/3);
-    font-size:large;
+    font-size:xx-large;
     
   }
 
   
   .newcolor {
-    color: rgb(210, 192, 227);
+    color: rgb(218, 197, 150);
   }
   
   .flex-container > section{
     width: 26%;
-    
   }
+
+  .smarthomeTheFirstOfEveryPage {
+    background-color: #2C2E3A;
+    padding: 2rem;
+    font-size: 2rem;
+    color:#F0DBDB;
+  }
+
+
+
+
+
 
   
 
